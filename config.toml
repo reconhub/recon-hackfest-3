@@ -13,7 +13,7 @@ title = "RECON and EAN hackathon: The SitRep Shuffle"
 [params.hero]
   img = "images/malta_edit.jpeg"
   title = "RECON Hackout 3: Situation Report"
-  description = "/// Two-day hackathon focused on automated Situation Report Generation organised by RECON and EAN<br>/// Malta, Mater Dei Hospital, 24-25 November 2018"
+  description = "/// Two-day hackathon focused on automated Sitrep Generation organised by RECON and EAN<br>/// Malta, Mater Dei Hospital, 24-25 November 2018"
 
 # Navigation section
 [params.nav]
