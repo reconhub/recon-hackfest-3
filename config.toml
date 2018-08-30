@@ -30,13 +30,7 @@ title = "RECON and EAN hackathon: The SitRep Shuffle"
   video = false
   vidlink = ""
   title = "Agenda"
-  description = "
-<p>This two-days hackathon, co-organised by the R Epidemics Consortium (<a href='http://www.repidemicsconsortium.org/'>RECON</a>) and the EPIET Alumni Network (<a href='http://epietalumni.net'>EAN</a>), will bring together seasoned field epidemiologists and R developers to generate automated situation reports.
-It will take place in the <a href='https://goo.gl/maps/fvyXk52TuQ22'>Mater Dei Hospital</a> Malta, 24-25 November 2018, as a satellite event to the <a href='https://www.escaide.eu/en'>ESCAIDE</a> conference.
-The hackathon will be aimed at people currently undertaking, or having recently completed, a field-epidemiology training programme (FETP), with some interest in epidemics analysis using R.
-Applications should be sent using the providing form (see 'Register' tab above).
-</p>
-"
+  description = "<p>This two-days hackathon, co-organised by the R Epidemics Consortium (<a href='http://www.repidemicsconsortium.org/'>RECON</a>) and the EPIET Alumni Network (<a href='http://epietalumni.net'>EAN</a>), will bring together seasoned field epidemiologists and R developers to generate automated situation reports.  It will take place in the <a href='https://goo.gl/maps/fvyXk52TuQ22'>Mater Dei Hospital</a> Malta, 24-25 November 2018, as a satellite event to the <a href='https://www.escaide.eu/en'>ESCAIDE</a> conference.  The hackathon will be aimed at people currently undertaking, or having recently completed, a field-epidemiology training programme (FETP), with some interest in epidemics analysis using R.  Applications should be sent using the providing form (see 'Register' tab above).  </p> "
   # [[params.services.item]]
   #   icon = "icon-present"
   #   title = "Web Development"
