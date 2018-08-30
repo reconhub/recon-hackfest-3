@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://recon-hackout-3.netlify.com/"
+baseURL = "https://recon-hackfest-3.netlify.com/"
 languageCode = "en-AU"
-title = "RECON and EAN hackathon: The SitRep Shuffle"
+title = "RECON and EAN hackfest: The SitRep Shuffle"
 
 # Metadata
 [params]
   author = "Zhian N. Kamvar, Amrish Baidjoe, & Thibaut Jombart"
-  description = "Website for the RECON and EAN Situation Report Hackathon, Malta, 24-25 November 2018"
+  description = "Website for the RECON and EAN Situation Report Hackfest, Malta, 24-25 November 2018"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/malta_edit.jpeg"
   title = "RECON Hackout 3: Situation Report"
-  description = "/// Two-day hackathon focused on automated Sitrep Generation organised by RECON and EAN<br>/// Malta, Mater Dei Hospital, 24-25 November 2018"
+  description = "/// Two-day hackfest focused on automated Sitrep Generation organised by RECON and EAN<br>/// Malta, Mater Dei Hospital, 24-25 November 2018"
 
 # Navigation section
 [params.nav]
@@ -30,7 +30,7 @@ title = "RECON and EAN hackathon: The SitRep Shuffle"
   video = false
   vidlink = ""
   title = "Agenda"
-  description = "<p>This two-days hackathon, co-organised by the R Epidemics Consortium (<a href='https://www.repidemicsconsortium.org/'>RECON</a>) and the EPIET Alumni Network (<a href='https://epietalumni.net'>EAN</a>), will bring together seasoned field epidemiologists and R developers to generate automated situation reports.  It will take place in the <a href='https://goo.gl/maps/fvyXk52TuQ22'>Mater Dei Hospital</a> Malta, 24-25 November 2018, as a satellite event to the <a href='https://www.escaide.eu/en'>ESCAIDE</a> conference.  The hackathon will be aimed at people currently undertaking, or having recently completed, a field-epidemiology training programme (FETP), with some interest in epidemics analysis using R.  Applications should be sent using the providing form (see 'Register' tab above).  </p> "
+  description = "<p>This two-days hackfest, co-organised by the R Epidemics Consortium (<a href='https://www.repidemicsconsortium.org/'>RECON</a>) and the EPIET Alumni Network (<a href='https://epietalumni.net'>EAN</a>), will bring together seasoned field epidemiologists and R developers to generate automated situation reports.  It will take place in the <a href='https://goo.gl/maps/fvyXk52TuQ22'>Mater Dei Hospital</a> Malta, 24-25 November 2018, as a satellite event to the <a href='https://www.escaide.eu/en'>ESCAIDE</a> conference.  The hackfest will be aimed at people currently undertaking, or having recently completed, a field-epidemiology training programme (FETP), with some interest in epidemics analysis using R.  Applications should be sent using the providing form (see 'Register' tab above).  </p> "
   # [[params.services.item]]
   #   icon = "icon-present"
   #   title = "Web Development"
@@ -59,7 +59,7 @@ title = "RECON and EAN hackathon: The SitRep Shuffle"
   # [[params.services.item]]
   #  icon = ""
   #  title = "Parallel session 2"
-  #  description = "<p><b>Friday 23rd March 2018 <br>9:30 - 16:00</b></p><p>Community-driven hackathon. Click <a href='https://github.com/RECON-gathering-March-2018/projects'>here</a> to discuss existing projects or propose new ones.</p>"
+  #  description = "<p><b>Friday 23rd March 2018 <br>9:30 - 16:00</b></p><p>Community-driven hackfest. Click <a href='https://github.com/RECON-gathering-March-2018/projects'>here</a> to discuss existing projects or propose new ones.</p>"
 
   # [[params.services.item]]
   #  icon = ""
@@ -116,7 +116,7 @@ title = "RECON and EAN hackathon: The SitRep Shuffle"
     name = "programme"
     title = "Programme"
     subtitle = "What is on the menu?"
-    description = "The final programme of the hackathon will be published on this website soon." 
+    description = "The final programme of the hackfest will be published on this website soon." 
 
 
 # [[params.mission.item]]
