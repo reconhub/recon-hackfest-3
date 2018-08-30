@@ -1,3 +1,5 @@
 *~
+!public/.keep
+public/*
 .RData
 .Rhistory
