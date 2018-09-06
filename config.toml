@@ -36,10 +36,14 @@ title = "RECON and EAN hackfest: The SitRep Shuffle"
   #   title = "Web Development"
   #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  # [[params.services.item]]
-  #  icon = ""
-  #  title = "Registration"
-  #  description = "<p><b>Thursday 22nd March 2018 <br>9:00 - 9:30</b></p><p>Welcoming the participants, coffee.</p>"
+  [[params.services.item]]
+    icon = ""
+    title = "Hackfest Day 1"
+    description = "<p><b>Saturday 24th November 2018 <br>9:00 - 17:00</b></p><ul><li>Introductions</li><li>R refresher and RECON-verse packages</li><li>Sitrep generation and troubleshooting</li></ul>"
+  [[params.services.item]]
+    icon = ""
+    title = "Hackfest Day 2"
+    description = "<p><b>Sunday 25th November 2018 <br>9:00 - 17:00</b></p><ul><li>Sitrep generation and troubleshooting</li><li>Project exposition</li><li>Discussion about future tools for automation</li></ul>"
 
   #  [[params.services.item]]
   #   icon = ""
