@@ -82,8 +82,8 @@ title = "RECON and EAN hackfest: The SitRep Shuffle"
     weight = 4
     name = "contact"
     title = "Contact"
-    subtitle = "For more information, use the contact details provided below, for question regarding registration, e-mail EAN."
-    description = "Organisation: <p><ul><li><a href='mailto:eanboard@gmail.com'>EAN Board</a><li><a href='mailto:zkamvar@gmail.com'>Zhian N. Kamvar</a><li><a href='mailto:amrish.baidjoe@gmail.com'>Amrish Baidjoe</a><li><a href='mailto:thibautjombart@gmail.com'>Thibaut Jombart</a></ul></p>"
+    subtitle = "For more information, use the contact details provided below, for question regarding registration, e-mail Zhian Kamvar."
+    description = "Organisation: <p><ul><li><a href='mailto:zkamvar@gmail.com'>Zhian N. Kamvar</a><li><a href='mailto:amrish.baidjoe@gmail.com'>Amrish Baidjoe</a><li><a href='mailto:thibautjombart@gmail.com'>Thibaut Jombart</a></ul></p>"
 
 
   [[params.mission.item]]
