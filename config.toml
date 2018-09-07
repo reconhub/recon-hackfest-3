@@ -12,7 +12,7 @@ title = "RECON and EAN hackfest: The SitRep Shuffle"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/malta_edit.jpeg"
-  title = "RECON Hackout 3: Situation Report"
+  title = "RECON Hackfest 3: Automated Situation Report"
   description = "/// Two-day hackfest focused on automated Sitrep Generation organised by RECON and EAN<br>/// Malta, Mater Dei Hospital, 24-25 November 2018"
 
 # Navigation section
