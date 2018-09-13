@@ -152,6 +152,12 @@ title = "RECON and EAN hackfest: The SitRep Shuffle"
     # dribbble = "#"
     github = "https://github.com/thibautjombart"
     twitter = "https://twitter.com/TeebzR"
+  
+  [[params.team.item]]
+    name = "Claire Thomson"
+    position = "HPRU Manager (Modelling Methodology), Imperial College London, UK"
+    description = "Providing logistics support on behalf of RECON"
+    img = "images/claire.jpg"
 
   [[params.team.item]]
     name = "Lieke van Alphen"
