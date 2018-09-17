@@ -78,6 +78,11 @@ pygmentsCodefencesGuessSyntax = true
     url = "page/register"
     weight = 3
 
+[[menu.main]]
+    name = "Organisers"
+    url = "page/people"
+    weight = 4
+
 # [[menu.main]]
 #     identifier = "samples"
 #     name = "Samples"
