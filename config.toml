@@ -1,194 +1,112 @@
-# Main config file for icon theme.
-theme = "hugo-icon"
-baseURL = "https://recon-hackfest-3.netlify.com/"
-languageCode = "en-AU"
-title = "RECON and EAN hackfest: The SitRep Shuffle"
+baseurl = "https://recon-hackfest-3.netlify.com"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "RECON Hackfest 3"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
 
-# Metadata
-[params]
-  author = "Zhian N. Kamvar, Amrish Baidjoe, & Thibaut Jombart"
-  description = "Website for the RECON and EAN Hackfest 3, Malta, 24--25 November 2018"
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Two-day hackfest focused on case studies and automated sitrep generation organised by RECON and EAN // Malta, Mater Dei Hospital, 24-25 November 2018"
+  logo = "img/logo.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "2 January, 2006"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  useHLJS = false
+  socialShare = false
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-# Hero section (from here on is for icon theme)
-[params.hero]
-  img = "images/malta_edit.jpeg"
-  title = "RECON Hackfest 3"
-  description = "/// Two-day hackfest focused on case studies and automated sitrep generation organised by RECON and EAN<br>/// Malta, Mater Dei Hospital, 24-25 November 2018"
+[[Params.bigimg]]
+  src = "img/malta_edit.jpeg"
+  desc = "Malta"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
 
-# Navigation section
-[params.nav]
-  services = "Agenda"
-  mission = "Practical info"
-  team = "Organisers"
-  contact = "Register"
-  # Include logo instead if HOME:
-  # logo = "path/to/logo"
+[Author]
+  name = "Zhian N. Kamvar, Amrish Baidjoe, & Thibaut Jombart"
+# facebook = "username"
+# googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+# github = "username"
+# gitlab = "username"
+# bitbucket = "username"
+# twitter = "username"
+# reddit = "username"
+# linkedin = "username"
+# xing = "username"
+# stackoverflow = "users/XXXXXXX/username"
+# snapchat = "username"
+# instagram = "username"
+# youtube = "user/username" # or channel/channelname
+# soundcloud = "username"
+# spotify = "username"
+# bandcamp = "username"
+# itchio = "username"
+# vk = "username"
+# paypal = "username"
+# telegram = "username"
 
-# Services section
-[params.services]
-  enable = true
-  video = false
-  vidlink = ""
-  title = "Agenda"
-  description = "<p>This two-day hackfest, co-organised by the R Epidemics Consortium (<a href='https://www.repidemicsconsortium.org/'>RECON</a>) and the EPIET Alumni Network (<a href='https://epietalumni.net'>EAN</a>), will bring together seasoned field epidemiologists and R developers for two purposes: 1) document case studies for online distribution and 2) generate automated situation reports for your data. <b>All data will be treated as confidential. We have no interest in publishing data or using it for any other purpose beyond generating automated sitreps.</b>  It will take place in the <a href='https://goo.gl/maps/fvyXk52TuQ22'>Mater Dei Hospital</a> Malta, 24-25 November 2018, as a satellite event to the <a href='https://www.escaide.eu/en'>ESCAIDE</a> conference.  Both days will begin at 9AM and end at 5PM.  The hackfest will be aimed at people currently undertaking, or having recently completed, a field-epidemiology training programme (FETP), with some interest in epidemics analysis using R.  Applications should be sent using the providing form (see 'Register' tab above).  </p> "
 
-  [[params.services.item]]
-    icon = ""
-    title = "Hackfest Day 1"
-    description = "<p><b>Saturday 24th November 2018 <br>9:00 - 17:00</b></p><ul><li>Introductions</li><li>R refresher of RMarkdown and RECON-sphere packages</li><li>Identify projects and split into working groups</li><li>Sitrep generation / case studies and troubleshooting</li></ul>"
-  [[params.services.item]]
-    icon = ""
-    title = "Hackfest Day 2"
-    description = "<p><b>Sunday 25th November 2018 <br>9:00 - 17:00</b></p><ul><li>Sitrep generation / case studies and troubleshooting</li><li>Project exposition</li><li>Discussion about future tools for automation or needed resources for education</li></ul>"
-
-# Mission section
-[params.mission]
-  enable = true
-
-  # [params.mission.images]
-  #   enable = true
-
-  #   [[params.mission.images.list]]
-  #     img = "images/compass.jpg"
-  #   [[params.mission.images.list]]
-  #     img = "images/img_4.jpg"
-  #   [[params.mission.images.list]]
-  #     img = "images/img_1.jpg"
-  #   [[params.mission.images.list]]
-  #     img = "images/calendar.jpg"
-
-  [[params.mission.item]]
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
     weight = 1
-    name = "location"
-    title = "Location"
-    subtitle = 'The workshop will be hosted in the Pathology conference room at level-1 Block B at the Mater Dei Hospital, Malta'
-    description = '<p>Here is a map of the location:<br>"<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.845674352555!2d14.474202051114345!3d35.90179518004605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e45548ca6d317%3A0x9af354451a8f887d!2sMater+Dei+Hospital!5e0!3m2!1sen!2suk!4v1531152876216" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"</iframe></p>'
 
-  [[params.mission.item]]
+[[menu.main]]
+    name = "Agenda"
+    url = "page/agenda/"
     weight = 2
-    name = "date"
-    title = "Date"
-    subtitle = "The event will take place accross two days, Saturday the 24th - and Sunday the 25th of November 2018, exact times will be announced closer to the event."
-    description = ""
 
-  [[params.mission.item]]
+[[menu.main]]
+    name = "Register"
+    url = "page/register"
     weight = 3
-    name = "register"
-    title = "Register"
-    subtitle = ""
-    description = '<p>Please use the google form below to apply, or <a href="https://goo.gl/forms/aXfgw3QvPfxqd7rl2">follow this link to open the form in a new page</a>. Attendance will depend on availability and will be confirmed at a later stage. As soon as participation slots are full, new applicants will be added to a reserve list. </p><p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfuqUzM-o3mEJyKlWIaaE86mF_ko8Ie5lr2dQmejOMV-M58zQ/viewform?embedded=true" width="640" height="1720" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>'
- 
-  [[params.mission.item]]
+
+[[menu.main]]
+    name = "Organisers"
+    url = "page/people"
     weight = 4
-    name = "contact"
-    title = "Contact"
-    subtitle = "For more information, use the contact details provided below, for question regarding registration, e-mail Zhian Kamvar."
-    description = "Organisation: <p><ul><li><a href='mailto:zkamvar@gmail.com'>Zhian N. Kamvar</a><li><a href='mailto:amrish.baidjoe@gmail.com'>Amrish Baidjoe</a><li><a href='mailto:thibautjombart@gmail.com'>Thibaut Jombart</a></ul></p>"
 
+# [[menu.main]]
+#     identifier = "samples"
+#     name = "Samples"
+#     weight = 2
 
-  [[params.mission.item]]
-    weight = 5
-    name = "programme"
-    title = "Programme"
-    subtitle = "What is on the menu?"
-    description = "The final programme of the hackfest will be published on this website soon." 
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Big Image Sample"
+#     url = "post/2017-03-07-bigimg-sample"
+#     weight = 1
 
-  [[params.mission.item]]
-    weight = 6
-    name = "rationale"
-    title = "Rationale"
-    subtitle = "Why hack?"
-    description = "Automated sitrep generation was identified as one of the <a href='https://github.com/RECON-gathering-March-2018/projects/issues/13'>key projects in the March 2018 RECON gathering mini-hack.</a> One of the most difficult aspects of automated sitrep generation is the fact that not all linelists record the same variables or have different names for the columns. The purpose of this hackfest is to build up a knowledge base of code that generate sitreps for diverse situations. " 
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Math Sample"
+#     url = "post/2017-03-05-math-sample"
+#     weight = 2
 
+# [[menu.main]]
+#     parent = "samples"
+#     name = "Code Sample"
+#     url = "post/2016-03-08-code-sample"
+#     weight = 3
 
- 
-
-# # Work section
-# [params.work]
-#   enable = false
-
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_1.jpg"
-
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_2.jpg"
-
-#   [[params.work.item]]
-#     title = "Consectetur adipisicing"
-#     subtitle = "Web Design"
-#     img = "images/img_3.jpg"
-
-# Team section
-[params.team]
-  enable = true
-  title = "Organisers"
-  description = "Organising members and facilitators"
-
-  [[params.team.item]]
-    name = "Zhian N. Kamvar"
-    position = "Research Associate, Imperial College London, UK"
-    description = "R developer, population geneticist, and RECON software development coordinator."
-    img = "images/zhian.jpg"
-    github = "https://github.com/zkamvar"
-    twitter = "https://twitter.com/zkamvar"
-
-  [[params.team.item]]
-    name = "Amrish Baidjoe"
-    position = "Research Associate, Imperial College London, UK"
-    description = "Field epidemiologist/microbiologist and coordinator of RECON, president of the EPIET Alumni Network."
-    img = "images/amrish.jpg"
-    github = "https://github.com/AmmerB"
-    twitter = "https://twitter.com/Ammer_B"
-
-  [[params.team.item]]
-    name = "Thibaut Jombart"
-    position = "Associate Professor, London School of Hygiene and Tropical Medicine / Imperial College London, UK"
-    description = "Outbreak response analytics and head of RECON.<br>"
-    img = "images/thibaut.jpg"
-    # dribbble = "#"
-    github = "https://github.com/thibautjombart"
-    twitter = "https://twitter.com/TeebzR"
-  
-  [[params.team.item]]
-    name = "Claire Thomson"
-    position = "HPRU Manager (Modelling Methodology), Imperial College London, UK"
-    description = "Providing logistics support on behalf of RECON"
-    img = "images/claire.jpg"
-
-  [[params.team.item]]
-    name = "Lieke van Alphen"
-    position = "Molecular Medical Microbiologist, MUMC, NL"
-    description = "Providing logistics support on behalf of EAN, EAN treasurer"
-    img = "images/lieke.jpeg"
-
-#add following members: facilitators, admin support, Chris Barbara
-
- 
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
-
-# Contact section
-[params.contact]
-  enable = false
-  title = "Register"
-  message = "Bla bla bla"
-
-# Footer section
-# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
-[params.footer]
-  enable = true
-  note = "<p>This event is organised by:<br><a href='https://www.repidemicsconsortium.org/'><img src='https://www.repidemicsconsortium.org/img/logo.png' width='300px' alt='R Epidemics Consortium'><br>the R Epidemics Consortium</a><br><large>&</large><br><a href='https://epietalumni.net/'><img src='images/ean.png' width='300px' alt='EPIET Alumni Network'><br>the EPIET Alumni Network</a></p><small>This event is co-funded by the Medical Research Council (MRC) Centre for Outbreak Analysis and Modelling, and the National Institute for Health Research - Health Protection Research Unit (NIHR-HPRU) for Modelling Methodology.</small></p><p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a href='https://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a>. Website by <a href='https://thibautjombart.netlify.com/'>Thibaut Jombart</a> and Amrish Baidjoe.</small></p>"
-  github = "https://github.com/reconhub/course-malta-2018"
-  
+# [[menu.main]]
+#     name = "Tags"
+#     url = "tags"
+#     weight = 3
